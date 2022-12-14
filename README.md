@@ -20,7 +20,10 @@ Public endpoint: [http://20.31.127.93:3000/](http://20.31.127.93:3000/)
 
 ## Screenshots
 Release DevOps pipeline:
-![Release Pipeline](./release_pipeline.png "Release Pipeline")
+
+![Release Pipeline](./Images/release_pipeline.png "Release Pipeline")
+
 
 Successful Deployment:
-![Deployment](./deployment.png "Deployment")
+
+![Deployment](./Images/deployment.png "Deployment")
