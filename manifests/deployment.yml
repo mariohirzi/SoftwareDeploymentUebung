@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: lab5 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lab5
+  template:
+    metadata:
+      labels:
+        app: lab5 
+    spec:
+      containers:
+        - name: lab5 
+          image: akslab5registry.azurecr.io/lab5
+          ports:
+          - containerPort: 3000
