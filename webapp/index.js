@@ -1,8 +1,8 @@
 const express = require('express');
   
 const app = express();
-const PORT = 3000;
-const HOST = '0.0.0.0';
+const PORT = norma
+const HOST = process.env.HOST;
 
 app.get('/', (req, res)=>{
     res.status(200);
@@ -12,5 +12,5 @@ app.get('/', (req, res)=>{
 
 
 app.listen(PORT, HOST => {
-  console.log(`Example app listening on port ${PORT}`)
+  console.log(`Example app listening on port ${PORT}, ${HOST}`)
 })
