@@ -1,0 +1,23 @@
+{
+  "name": "softwaredeploymentgroupproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariohirzi/SoftwareDeploymentUebung.git"
+  },
+  "author": "Hofer, Chenari, Kiefer, Hirzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariohirzi/SoftwareDeploymentUebung/issues"
+  },
+  "homepage": "https://github.com/mariohirzi/SoftwareDeploymentUebung#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "gitignore": "^0.7.0"
+  }
+}
