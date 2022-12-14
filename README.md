@@ -9,3 +9,4 @@ The pipeline will be triggered after pushing to git and execute the following ta
 In order to create the pipeline, the first step was to create a simple demo Node.js application. After that a AKS cluster was created in the azure portal with the help of the [microsoft quickstart tutorial](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli).
 
 # Creating the pipeline
+First, we created the pipeline using the pipeline type "Deploy to Azure Kubernetes Service". After that, a dockerfile was created and uploaded to git. Following that, the location of the node.js app in this github repository was added to the yaml file as well. Now the pipeline can be triggered via git and exectued.
