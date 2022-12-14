@@ -17,3 +17,10 @@ The next step was to create a release pipeline. During this process, the only di
 Image in registry: [akslab5registry.azurecr.io/lab5](akslab5registry.azurecr.io/lab5)
 
 Public endpoint: [http://20.31.127.93:3000/](http://20.31.127.93:3000/)
+
+## Screenshots
+Release DevOps pipeline:
+![Release Pipeline](./release_pipeline.png "Release Pipeline")
+
+Successful Deployment:
+![Deployment](./deployment.png "Deployment")
