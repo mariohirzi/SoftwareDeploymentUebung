@@ -11,4 +11,4 @@ In order to create the pipeline, the first step was to create a simple demo Node
 # Creating the pipeline
 First, we created the pipeline using the pipeline type "Deploy to Azure Kubernetes Service". After that, a dockerfile was created and uploaded to git. Following that, the location of the node.js app in this github repository was added to the yaml file as well. Now the pipeline can be triggered via git and exectued.
 
-The next step was to create a release pipeline.
+The next step was to create a release pipeline. During this process, the only difficulty was figuring out the external address of the kubernetes cluster. But with our knoweldge from the previous labs, this lab was not a struggle. 
