@@ -1,7 +1,7 @@
 const express = require('express');
   
 const app = express();
-const PORT = norma
+const PORT = 3000
 const HOST = process.env.HOST;
 
 app.get('/', (req, res)=>{
